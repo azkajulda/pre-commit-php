@@ -1,0 +1,13 @@
+parameters:
+	phpVersion: [version_php]
+	paths:
+		- [path_project]
+	bootstrapFiles:
+		- [autoloader_file]
+	scanDirectories:
+		- [file_directories_scan]
+	universalObjectCratesClasses:
+		- [class_tanpa_structure_universal]
+	reportUnmatchedIgnoredErrors: false
+	ignoreErrors:
+		- [ignoreErrors]
